@@ -15,7 +15,7 @@ Sure I am familiar with convolution layers, especially its form in PyTorch. I wo
 Here I just refer some nice drawing by [vdumoulin](https://github.com/vdumoulin), the original repository is hyperlinked as the above subtitle.
 
 
-## Convolution animations
+##### Convolution animations
 
 _N.B.: Blue maps are inputs, and cyan maps are outputs._
 
@@ -46,7 +46,7 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
   </tr>
 </table>
 
-## Transposed convolution animations
+##### Transposed convolution animations
 
 _N.B.: Blue maps are inputs, and cyan maps are outputs._
 
@@ -77,6 +77,11 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
   </tr>
 </table>
 
+### Convolution Layer Math
 
-![img](https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/same_padding_no_strides.gif)
+This part is inspiring, years of making friend with computer taught me one thing: logic and device are related but completely different. When we are curious about how the algorithms are implemented, we have to read the source code, sadly `.cu` codes.
+
+Well, before going that deep, we still have some stains in the logic surface, let's sweep them out..... blah!
+
+###### turn convolution into matrix multiplies
 
