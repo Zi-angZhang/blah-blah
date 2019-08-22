@@ -10,19 +10,21 @@ Sure I am familiar with convolution layers, especially its form in PyTorch. I wo
 
 
 
-### [Convolution arithmetic](https://github.com/vdumoulin/conv_arithmetic)
+### [Convolution arithmetic animate](https://github.com/vdumoulin/conv_arithmetic)
 
 Here I just refer some nice drawing by [vdumoulin](https://github.com/vdumoulin), the original repository is hyperlinked as the above subtitle.
 
+
+## Convolution animations
 
 _N.B.: Blue maps are inputs, and cyan maps are outputs._
 
 <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/no_padding_no_strides.gif"></td>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/arbitrary_padding_no_strides.gif"></td>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/same_padding_no_strides.gif"></td>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/full_padding_no_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/no_padding_no_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/arbitrary_padding_no_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/same_padding_no_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/full_padding_no_strides.gif"></td>
   </tr>
   <tr>
     <td>No padding, no strides</td>
@@ -31,9 +33,9 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
     <td>Full padding, no strides</td>
   </tr>
   <tr>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/no_padding_strides.gif"></td>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/padding_strides.gif"></td>
-    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/gif/padding_strides_odd.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/no_padding_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/padding_strides.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/padding_strides_odd.gif"></td>
     <td></td>
   </tr>
   <tr>
@@ -50,10 +52,10 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
 
 <table style="width:100%; table-layout:fixed;">
   <tr>
-    <td><img width="150px" src="gif/no_padding_no_strides_transposed.gif"></td>
-    <td><img width="150px" src="gif/arbitrary_padding_no_strides_transposed.gif"></td>
-    <td><img width="150px" src="gif/same_padding_no_strides_transposed.gif"></td>
-    <td><img width="150px" src="gif/full_padding_no_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/no_padding_no_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/arbitrary_padding_no_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/same_padding_no_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/full_padding_no_strides_transposed.gif"></td>
   </tr>
   <tr>
     <td>No padding, no strides, transposed</td>
@@ -62,9 +64,9 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
     <td>Full padding, no strides, transposed</td>
   </tr>
   <tr>
-    <td><img width="150px" src="gif/no_padding_strides_transposed.gif"></td>
-    <td><img width="150px" src="gif/padding_strides_transposed.gif"></td>
-    <td><img width="150px" src="gif/padding_strides_odd_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/no_padding_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/padding_strides_transposed.gif"></td>
+    <td><img width="150px" src="https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/padding_strides_odd_transposed.gif"></td>
     <td></td>
   </tr>
   <tr>
@@ -75,17 +77,6 @@ _N.B.: Blue maps are inputs, and cyan maps are outputs._
   </tr>
 </table>
 
-## Dilated convolution animations
 
-_N.B.: Blue maps are inputs, and cyan maps are outputs._
-
-<table style="width:25%"; table-layout:fixed;>
-  <tr>
-    <td><img width="150px" src="gif/dilation.gif"></td>
-  </tr>
-  <tr>
-    <td>No padding, no stride, dilation</td>
-  </tr>
-</table>
-
+![img](https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/same_padding_no_strides.gif)
 
