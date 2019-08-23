@@ -2,7 +2,13 @@
 
 Convolution is the base technique of Convolutional Neural Networks and it settles in the central position of image processing technologies. But I am thinking of the real work done by convolution and I would dive into the mechanisms trying to understand convolution.
 
+![img](https://developer.nvidia.com/sites/default/files/pictures/2018/convolution-1.png)
 
+Image Source :[nvidia](https://developer.nvidia.com/discover/convolution)
+$$
+y(t) = f \circledast x = \int^\infin_{-\infin} f(k) \cdot x(t-k)\ dk
+$$
+where $\circledast$ stands for convolution operation.
 
 ## Convolution layer in CNNs
 
@@ -84,4 +90,6 @@ This part is inspiring, years of making friend with computer taught me one thing
 Well, before going that deep, we still have some stains in the logic surface, let's sweep them out..... blah!
 
 ###### turn convolution into matrix multiplies
+
+Nowadays convolutional operations are mapped into matrix multiply operations which can directed be processed by GPUs and CPUs.
 
