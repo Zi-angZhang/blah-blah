@@ -31,3 +31,24 @@ Here is a description I found on ebay, obvious that's a similar product.
 >2. Organized in 16 sector with 4 blocks of 16 bytes each (one block consists of 16 byte)   
 >3. Perfectly work with NFC ACR122U read-writer/ Proxmark3 / Icopy 3 
 >4. Each block rewritable and useful
+
+
+
+I found [this post](https://stackoverflow.com/questions/41326384/re-writing-uid-and-block-0-on-chinese-supposed-to-be-writable-mifare-1k-card-i) pasted the well-known backdoor commands.
+
+## Back door command
+
+There are 2 types of UID writeble cards:
+
+1. Block 0 writable cards: you can write block 0 at any moment
+2. Backdoored cards
+
+If writing block 0 does not work, you probably have a backdoored card: To enable the backdoor, you need to send the following sequence to the card: (everything in hexadecimal)
+
+1. RC522 > Card: 50 00 57 cd (HLTA + CRC)
+2. RC522 > Card: 40 (7 bits only)
+3. Card > RC522: A (4 bits only)
+4. RC522 > Card: 43
+5. Card > RC522: A (4 bits only)
+
+Then you can write to block 0 without authentication. If it still does not work, your card is probably not UID changeable.
