@@ -10,6 +10,8 @@ y(t) = f \circledast x = \int^\infin_{-\infin} f(k) \cdot x(t-k)\ dk
 $$
 where $\circledast$ stands for convolution operation.
 
+Sad! GitHub doesn't support MathJax in rendering equation. I just leave the wrack above and not prepared to do any workaround with it. Following posts would contain no equation, which sounds cheerful for one who hate math LOL.
+
 ## Convolution layer in CNNs
 
 Sure I am familiar with convolution layers, especially its form in PyTorch. I would simply some graphs and codes for a personal hint.... I have a poor memory, leaks and overwritten happens everywhere in my head, reboot, the most powerful tool of a computer engineer, does not apply to my brain.... Look, I am blahing....
@@ -89,7 +91,7 @@ This part is inspiring, years of making friend with computer taught me one thing
 
 Well, before going that deep, we still have some stains in the logic surface, let's sweep them out..... blah!
 
-###### turn convolution into matrix multiplies
+###### turning convolution into matrix multiplies
 
 Nowadays convolutional operations are mapped into matrix multiply operations which can directed be processed by GPUs and CPUs.
 
