@@ -63,3 +63,19 @@ Hilbert-Schmidt independence criterion bottleneck for training deep neural netwo
 ## Experiments
 
 First of first, I choose SRCNN as our baseline experiment target. (DL model sounds like a laboratory mouse in the context LOL), _SDG_, _Adam_, _RAdam_ and _HSIC Bottleneck_
+
+
+
+
+
+Radam is ready to use, so I experimented it for demonstration.
+
+_![newplot](README.assets/newplot.png)_
+
+I found using a factor to accumulate the loss and average the loss when output would slow down the training (weird) so I allow the noise to be shown in my graph.... that looks bad.
+
+
+
+I thought just give the network a small dataset and wait for their overfit should be time-saving.
+
+![newplot](README.assets/newplot-1566790317452.png)
