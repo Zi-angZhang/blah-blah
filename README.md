@@ -1,7 +1,7 @@
 ## This repository hodes my thoughts
 #### 20190825
 
-#####[Denoise and Super Resolution](archive/20190824/README.md)
+##### [Denoise and Super Resolution](archive/20190824/README.md)
 Denoise networks looks similar to super resolution networks, Where is the node that I can bond them together?
 
 ---
