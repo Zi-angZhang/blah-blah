@@ -1,7 +1,8 @@
 ## This repository hodes my thoughts
 
+#### 20190827
 
-
+##### [How "The All Convlutional Net" paper was conducted](archive/20190826/README.md)
 
 #### 20190825
 
