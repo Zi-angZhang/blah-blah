@@ -20,6 +20,8 @@ Image Restoration includes image denoising, super resolution, inpainting, and so
 ##### [Denoise and Super Resolution](archive/20190824/README.md)
 Denoise networks looks similar to super resolution networks, Where is the node that I can bond them together?
 
+##### [DCGANs for image super-resolution, denoising and debluring 文章精读](archive/20190824/DCGANs.md)
+
 ---
 
 #### 20190824
