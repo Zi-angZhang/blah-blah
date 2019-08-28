@@ -1,8 +1,19 @@
 ## This repository hodes my thoughts
 
+#### 20190828
+
+#### [Auto-Encoders]()
+
+#### [Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connecxtions](archive/20190828/ConvolutionAutoencoder.md)
+Image Restoration includes image denoising, super resolution, inpainting, and so on.
+
+---
+
 #### 20190827
 
 ##### [How "The All Convlutional Net" paper was conducted](archive/20190826/README.md)
+
+---
 
 #### 20190825
 
