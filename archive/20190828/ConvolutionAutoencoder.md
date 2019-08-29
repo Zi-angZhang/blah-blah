@@ -51,9 +51,18 @@ Including equations in the paper
 
 ![1566982301846](assets/1566982301846.png)
 
+Here the first formula indicate the result without skip connection, the second result is the reuse of feature in each level during encoding.
+
+__So this paper is basically about skip connection rather than Auto-encoder__
+
 ![1566982319542](assets/1566982319542.png)
 
 
 
 
 
+### Network details
+
+filter size be set to `3x3`, training patch size set as `50 x 50`, step size set to `2`
+
+![1567048020377](assets/1567048020377.png)
