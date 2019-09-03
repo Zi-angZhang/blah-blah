@@ -6,15 +6,13 @@
    - PSNR， SSIM
 3. 测试模型
    - 超分辨生成 
-     - bicubic
-     - SRCNN
      - [ista-Net](https://github.com/jianzhangcs/ISTA-Net)
    - 图像拼接
-     - [this zhihu article](https://www.zhihu.com/question/34535199)
+     - None
    - 去噪
-     - DNCNN
      - [FFDNet](https://github.com/cszn/FFDNet.git)
    - 去模糊
+     - 
    - 去块
    - 去隔行
    - 帧率提升
@@ -28,3 +26,12 @@
    - 客观结果
    - 主观结果（每个方向简单、普通和复杂三个模型的结果）
 6. 结果分析
+
+
+
+
+
+
+
+文件结构：
+
