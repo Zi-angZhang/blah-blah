@@ -21,7 +21,8 @@ __RAM: Residual Attention Module for Single Image Super-Resolution__
 - convolution block attention module
   $$
   \mathbf M_1 = fc_2 (ReLU(fc_1(\mathbf S _{avg})))\\
-   \mathbf M_1 = fc_2 (ReLU(fc_1(\mathbf S _{avg})))
+   \mathbf M_1 = fc_2 (ReLU(fc_1(\mathbf S _{avg})))\\
+   \hat x 
   $$
   
 - channel-wise and spatial attention residual block
